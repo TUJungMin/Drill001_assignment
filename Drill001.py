@@ -1,22 +1,22 @@
 import turtle
 
 
-def turtle_move_w():
+def turtle_move_up():
     turtle.setheading(90)
     turtle.forward(50)
     turtle.stamp()
 
-def turtle_move_a():
+def turtle_move_left():
     turtle.setheading(180)
     turtle.forward(50)
     turtle.stamp()
 
-def turtle_move_s():
+def turtle_move_down():
     turtle.setheading(270)
     turtle.forward(50)
     turtle.stamp()
 
-def turtle_move_d():
+def turtle_move_right():
     turtle.setheading(0)
     turtle.forward(50)
     turtle.stamp()

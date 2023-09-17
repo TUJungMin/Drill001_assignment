@@ -27,10 +27,10 @@ def restart():
 turtle.shape("turtle")
 turtle.stamp()
 
-turtle.onkey(turtle_move_w, 'w')
-turtle.onkey(turtle_move_a, 'a')
-turtle.onkey(turtle_move_s, 's')
-turtle.onkey(turtle_move_d, 'd')
+turtle.onkey(turtle_move_up, 'w')
+turtle.onkey(turtle_move_left, 'a')
+turtle.onkey(turtle_move_down, 's')
+turtle.onkey(turtle_move_right, 'd')
 turtle.onkey(restart, 'Escape')
 
 turtle.listen()
